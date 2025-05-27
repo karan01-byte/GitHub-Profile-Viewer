@@ -2,7 +2,7 @@
 
 **GitHub Profile Viewer** is a sleek, responsive web app that allows users to search for GitHub profiles, view their public information, and generate QR codes for sharing. It also includes features like search history, dark mode, and intelligent username suggestions.
 
-![Preview](preview.png)
+![Preview](preview.jpg)
 
 ## Live Demo
 
