@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[Click here to view the live site]()
+[Click here to view the live site](https://git-hub-profile-viewer-bay.vercel.app/)
 
 ## Features
 
