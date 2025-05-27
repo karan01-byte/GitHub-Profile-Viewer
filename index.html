@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toggle-wrapper">
+    <label>
+      <input type="checkbox" id="toggleTheme" />
+      Dark Mode
+    </label>
+  </div>
+
+  <div class="card">
+    <h1 class="text-center mt-4">GitHub Profile Viewer</h1>
+    <input type="text" id="usernameInput" placeholder="Enter GitHub username" />
+  <ul id="suggestions" class="list-group position-absolute w-100"></ul>
+    
+    <button onclick="generateLink()">Generate URL</button>
+
+    <div id="loading" class="loading hidden">Loading...</div>
+    <div id="result"></div>
+
+    <div id="qrCode"></div>
+    <div id="historySection">
+      <h3>Recent Searches</h3>
+      <ul id="searchHistory"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
